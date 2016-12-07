@@ -1,6 +1,9 @@
 $(document).ready(function (){
 	$('.js-menu').hide();
 	$('.js-back').show();
+	$('.js-back').click(function(){
+		window.location = 'index.html';
+	});
 	console.log('El documento esta listo');
 
 	$('a.js-show-recipe').click(function(){
